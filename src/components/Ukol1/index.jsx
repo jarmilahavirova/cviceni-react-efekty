@@ -6,8 +6,8 @@ Zadání: Upravte efekt v této komponentě tak, aby se při **každém** zobraz
 
 export const Ukol1 = () => {
   useEffect(() => {
-    // Zde napište svůj kód...
-  }, []);
+    console.log("Jsem tady");
+  });
 
   return (
     <>
